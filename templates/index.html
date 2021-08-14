@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <h1>請輸入國曆生日</h1>
+    <form action="/show">
+          <input  name="year" placeholder="year" required type="text">
+          <input  name="month" placeholder="出生月" required type="text">
+          <input  name="day" placeholder="出生日" required type="text">
+          <input  name="hour" placeholder="出生時(小時)" required type="text">
+          <input type="submit" value="確認">
+        
+    </form>
+{% endblock %}
