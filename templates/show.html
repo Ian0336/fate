@@ -1,34 +1,12 @@
 {% extends "layout.html" %}
 
 {% block body %}
-    <h1>您的八字</h1>
-        <table width="1000" border="1">
-            <thead>
-                <tr style="height:150px">
-                    <th class="vertical-mode">年柱</th>
-                    <th class="vertical-mode">月柱</th>
-                    <th class="vertical-mode">日柱</th>
-                    <th class="vertical-mode">時柱</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr style="height:150px">
-                    <td class="vertical-mode">{{listg[0]}}{{listz[0]}}</td>
-                    <td class="vertical-mode">{{listg[1]}}{{listz[1]}}</td>
-                    <td class="vertical-mode">{{listg[2]}}{{listz[2]}}</td>
-                    <td class="vertical-mode">{{listg[3]}}{{listz[3]}}</td>
-                </tr>
-                <tr>
-                    <td class="vertical-mode">{% for list in listy %}  {{list}}/  {% endfor %}</td>
-                    <td class="vertical-mode">{% for lis in listm %}  {{lis}}/  {% endfor %}</td>
-                    <td class="vertical-mode">{% for li in listd %}  {{li}}/  {% endfor %}</td>
-                    <td class="vertical-mode">{% for ll in listh %}  {{ll}}/  {% endfor %}</td>
-                </tr>
-            </tbody>
+  
+        <div class="verticle"><br class="b">您的八字</br><span class="first">年柱</span><span class="first">{{listg[0]}}{{listz[0]}}</span><span class="first">{% for list in listy %}  {{list}}/  {% endfor %}</span></th>
+        <div class="verticle"><span class="first">月柱</span><span class="first">{{listg[1]}}{{listz[1]}}</span><span class="first">{% for lis in listm %}  {{lis}}/  {% endfor %}</span></th>
+        <div class="verticle"><span class="first">日柱</span><span class="first">{{listg[2]}}{{listz[2]}}</span><span class="first">{% for li in listd %}  {{li}}/  {% endfor %}</span></th>
+        <div class="verticle"><span class="first">時柱</span><span class="first">{{listg[3]}}{{listz[3]}}</span><span class="first">{% for ll in listh %}  {{ll}}/  {% endfor %}</span></th>    
             
-            
-            
-            
-        </table>
-        
+                
+      
 {% endblock %}
