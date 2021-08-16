@@ -2,10 +2,10 @@
 
 {% block body %}
   
-        <div class="verticle"><br class="b">您的八字</br><span class="first">年柱</span><span class="first">{{listg[0]}}{{listz[0]}}</span><span class="first">{% for list in listy %}  {{list}}/  {% endfor %}</span></th>
-        <div class="verticle"><span class="first">月柱</span><span class="first">{{listg[1]}}{{listz[1]}}</span><span class="first">{% for lis in listm %}  {{lis}}/  {% endfor %}</span></th>
-        <div class="verticle"><span class="first">日柱</span><span class="first">{{listg[2]}}{{listz[2]}}</span><span class="first">{% for li in listd %}  {{li}}/  {% endfor %}</span></th>
-        <div class="verticle"><span class="first">時柱</span><span class="first">{{listg[3]}}{{listz[3]}}</span><span class="first">{% for ll in listh %}  {{ll}}/  {% endfor %}</span></th>    
+        <div class="verticle"><br class="b">您的八字</br><span class="first">年柱</span><span class="first">{{listg[0]}}<span class="five">{{listg[1]}}</span>{{listz[0]}}<span class="five">{{listz[1]}}</span></span><span class="first">{% for list in listy %}  {{list}}/  {% endfor %}</span></th>
+        <div class="verticle"><span class="first">月柱</span><span class="first">{{listg[2]}}<span class="five">{{listg[3]}}</span>{{listz[2]}}<span class="five">{{listz[3]}}</span></span><span class="first">{% for lis in listm %}  {{lis}}/  {% endfor %}</span></th>
+        <div class="verticle"><span class="first">日柱</span><span class="first">{{listg[4]}}<span class="five">{{listg[5]}}</span>{{listz[4]}}<span class="five">{{listz[5]}}</span></span><span class="first">{% for li in listd %}  {{li}}/  {% endfor %}</span></th>
+        <div class="verticle"><span class="first">時柱</span><span class="first">{{listg[6]}}<span class="five">{{listg[7]}}</span>{{listz[6]}}<span class="five">{{listz[7]}}</span></span><span class="first">{% for ll in listh %}  {{ll}}/  {% endfor %}</span></th>    
             
                 
       
