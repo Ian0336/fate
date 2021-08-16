@@ -889,6 +889,23 @@ def check():
         if g[2]==7 and z[2]==11: listy.append("孤鸞日")
         if g[2]==4 and z[2]==8: listy.append("孤鸞日")
         
+        
+        
+def five_g(i):
+    if(i==1 or i==0):return "木"
+    if(i==3 or i==2):return "火"
+    if(i==5 or i==4):return "土"
+    if(i==7 or i==6):return "金"
+    if(i==9 or i==8):return "水"
+    
+def five_z(i):
+    if(i==3 or i==2):return "木"
+    if(i==6 or i==5):return "火"
+    if(i==4 or i==10 or i==1 or i==7):return "土"
+    if(i==8 or i==9):return "金"
+    if(i==1 or i==11):return "水"
+    
+        
 def mm(year,month,date,hour):
 
 
@@ -909,14 +926,23 @@ def mm(year,month,date,hour):
     listg.clear()
     listz.clear()
     listg.append(Gan[day.Lyear2.tg])
+    listg.append(five_g(day.Lyear2.tg))
     listg.append(Gan[day.Lmonth2.tg])
+    listg.append(five_g(day.Lmonth2.tg))
     listg.append(Gan[day.Lday2.tg])
+    listg.append(five_g(day.Lday2.tg))
     listg.append(Gan[gz.tg])
+    listg.append(five_g(gz.tg))
 
     listz.append(Zhi[day.Lyear2.dz])
+    listz.append(five_z(day.Lyear2.dz))
     listz.append(Zhi[day.Lmonth2.dz])
+    listz.append(five_z(day.Lmonth2.dz))
     listz.append(Zhi[day.Lday2.dz])
+    listz.append(five_z(day.Lday2.dz))
     listz.append(Zhi[gz.dz])
+    listz.append(five_z(gz.dz))
+    
     print(f"年柱: {Gan[day.Lyear2.tg]}{Zhi[day.Lyear2.dz] }  >>{listy} ")
     print(f"月柱: {Gan[day.Lmonth2.tg]}{Zhi[day.Lmonth2.dz] }  >>{listm} ")
     print(f"日柱: {Gan[day.Lday2.tg]}{Zhi[day.Lday2.dz] } >>{listd} ")
