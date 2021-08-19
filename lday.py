@@ -1272,7 +1272,7 @@ def check():
 
 
 
-        for i in range(4):
+        """for i in range(4):
             nn=(int(z[i])-4)
             if nn<0 :nn += 12
             if int(z[2])==nn:
@@ -1288,7 +1288,7 @@ def check():
                 if i==0: listy.append("天狗煞")
                 elif i==1: listm.append("天狗煞")
                 elif i==2: listd.append("天狗煞")
-                else: listh.append("天狗煞")
+                else: listh.append("天狗煞")"""
                 
                 
 
@@ -1379,20 +1379,20 @@ def check():
 
 
         for i in range(4):
-            if z[i]==6 or z[i]==1 z[i]==10 z[i]==4:
+            if z[i]==6 or z[i]==1 or z[i]==10 or z[i]==4:
                 if z[2]==0 or z[2]==3 or z[2]==6 or z[2]==9:
                     if i==0: listy.append("和尚關")
                     elif i==1: listm.append("和尚關")
                     elif i==2: listd.append("和尚關")
                     else: listh.append("和尚關")
-            if z[i]==9 or z[i]==3 z[i]==6 z[i]==0:
-                if z[2]==1 or z[2]==4 or z[2]==8 or z[2]==10:
+            if z[i]==9 or z[i]==3 or z[i]==6 or z[i]==0:
+                if z[2]==1 or z[2]==4 or z[2]==7 or z[2]==10:
                     if i==0: listy.append("和尚關")
                     elif i==1: listm.append("和尚關")
                     elif i==2: listd.append("和尚關")
                     else: listh.append("和尚關")
-            if z[i]==11 or z[i]==5 z[i]==8 z[i]==2:
-                if z[2]==2 or z[2]==5 or z[2]==9 or z[2]==11:
+            if z[i]==11 or z[i]==5 or z[i]==8 or z[i]==2:
+                if z[2]==2 or z[2]==5 or z[2]==8 or z[2]==11:
                     if i==0: listy.append("和尚關")
                     elif i==1: listm.append("和尚關")
                     elif i==2: listd.append("和尚關")
@@ -1683,7 +1683,239 @@ def check():
                     else: listh.append("浴盆關")
 
 
-                    
+
+
+        for i in range(4):
+            if z[i]==2:
+                if z[1]==2:
+                    if i==0: listy.append("斷腸關")
+                    elif i==1: listm.append("斷腸關")
+                    elif i==2: listd.append("斷腸關")
+                    else: listh.append("斷腸關")
+            if z[i]==3:
+                if z[1]==3:
+                    if i==0: listy.append("斷腸關")
+                    elif i==1: listm.append("斷腸關")
+                    elif i==2: listd.append("斷腸關")
+                    else: listh.append("斷腸關")
+            if z[i]==8:
+                if z[1]==4:
+                    if i==0: listy.append("斷腸關")
+                    elif i==1: listm.append("斷腸關")
+                    elif i==2: listd.append("斷腸關")
+                    else: listh.append("斷腸關")
+            if z[i]==1:
+                if z[1]==5:
+                    if i==0: listy.append("斷腸關")
+                    elif i==1: listm.append("斷腸關")
+                    elif i==2: listd.append("斷腸關")
+                    else: listh.append("斷腸關")
+            if z[i]==10:
+                if z[1]==6:
+                    if i==0: listy.append("斷腸關")
+                    elif i==1: listm.append("斷腸關")
+                    elif i==2: listd.append("斷腸關")
+                    else: listh.append("斷腸關")
+            if z[i]==9:
+                if z[1]==7:
+                    if i==0: listy.append("斷腸關")
+                    elif i==1: listm.append("斷腸關")
+                    elif i==2: listd.append("斷腸關")
+                    else: listh.append("斷腸關")
+            if z[i]==4:
+                if z[1]==8:
+                    if i==0: listy.append("斷腸關")
+                    elif i==1: listm.append("斷腸關")
+                    elif i==2: listd.append("斷腸關")
+                    else: listh.append("斷腸關")
+            if z[i]==5:
+                if z[1]==9:
+                    if i==0: listy.append("斷腸關")
+                    elif i==1: listm.append("斷腸關")
+                    elif i==2: listd.append("斷腸關")
+                    else: listh.append("斷腸關")
+            if z[i]==6:
+                if z[1]==10:
+                    if i==0: listy.append("斷腸關")
+                    elif i==1: listm.append("斷腸關")
+                    elif i==2: listd.append("斷腸關")
+                    else: listh.append("斷腸關")
+            if z[i]==7:
+                if z[1]==11:
+                    if i==0: listy.append("斷腸關")
+                    elif i==1: listm.append("斷腸關")
+                    elif i==2: listd.append("斷腸關")
+                    else: listh.append("斷腸關")
+            if z[i]==11:
+                if z[1]==0:
+                    if i==0: listy.append("斷腸關")
+                    elif i==1: listm.append("斷腸關")
+                    elif i==2: listd.append("斷腸關")
+                    else: listh.append("斷腸關")
+            if z[i]==0:
+                if z[1]==1:
+                    if i==0: listy.append("斷腸關")
+                    elif i==1: listm.append("斷腸關")
+                    elif i==2: listd.append("斷腸關")
+                    else: listh.append("斷腸關")
+
+
+
+
+
+        
+        for i in range(4):
+            if z[i]==7 or z[i]==1:
+                if z[1]==2 or z[1]==3 or z[1]==4:
+                    if i==0: listy.append("閻王關")
+                    elif i==1: listm.append("閻王關")
+                    elif i==2: listd.append("閻王關")
+                    else: listh.append("閻王關")
+            if z[i]==10 or z[i]==4:
+                if z[1]==5 or z[1]==6 or z[1]==7:
+                    if i==0: listy.append("閻王關")
+                    elif i==1: listm.append("閻王關")
+                    elif i==2: listd.append("閻王關")
+                    else: listh.append("閻王關")
+            if z[i]==6 or z[i]==0:
+                if z[1]==8 or z[1]==9 or z[1]==10:
+                    if i==0: listy.append("閻王關")
+                    elif i==1: listm.append("閻王關")
+                    elif i==2: listd.append("閻王關")
+                    else: listh.append("閻王關")
+            if z[i]==3 or z[i]==2:
+                if z[1]==11 or z[1]==0 or z[1]==1:
+                    if i==0: listy.append("閻王關")
+                    elif i==1: listm.append("閻王關")
+                    elif i==2: listd.append("閻王關")
+                    else: listh.append("閻王關")
+
+
+
+
+
+        for i in range(4):
+            if z[i]==0 or z[i]==2 or z[i]==9:
+                if z[1]==2 or z[1]==3 or z[1]==4:
+                    if i==0: listy.append("無情關")
+                    elif i==1: listm.append("無情關")
+                    elif i==2: listd.append("無情關")
+                    else: listh.append("無情關")
+            if z[i]==5 or z[i]==11 or z[i]==10:
+                if z[1]==5 or z[1]==6 or z[1]==7:
+                    if i==0: listy.append("無情關")
+                    elif i==1: listm.append("無情關")
+                    elif i==2: listd.append("無情關")
+                    else: listh.append("無情關")
+            if z[i]==1 or z[i]==8:
+                if z[1]==8 or z[1]==9 or z[1]==10:
+                    if i==0: listy.append("無情關")
+                    elif i==1: listm.append("無情關")
+                    elif i==2: listd.append("無情關")
+                    else: listh.append("無情關")
+            if z[i]==6 or z[i]==0:
+                if z[1]==11 or z[1]==0 or z[1]==1:
+                    if i==0: listy.append("無情關")
+                    elif i==1: listm.append("無情關")
+                    elif i==2: listd.append("無情關")
+                    else: listh.append("無情關")
+
+
+
+
+
+        for i in range(4):
+            if z[i]==6 or z[i]==1 or z[i]==10 or z[i]==4:
+                if z[2]==2 or z[2]==5 or z[2]==8 or z[2]==11:
+                    if i==0: listy.append("百日關")
+                    elif i==1: listm.append("百日關")
+                    elif i==2: listd.append("百日關")
+                    else: listh.append("百日關")
+            if z[i]==9 or z[i]==3 or z[i]==6 or z[i]==0:
+                if z[2]==4 or z[2]==7 or z[2]==10 or z[2]==1:
+                    if i==0: listy.append("百日關")
+                    elif i==1: listm.append("百日關")
+                    elif i==2: listd.append("百日關")
+                    else: listh.append("百日關")
+            if z[i]==11 or z[i]==5 or z[i]==8 or z[i]==2:
+                if z[2]==3 or z[2]==6 or z[2]==9 or z[2]==0:
+                    if i==0: listy.append("百日關")
+                    elif i==1: listm.append("百日關")
+                    elif i==2: listd.append("百日關")
+                    else: listh.append("百日關")
+
+
+
+
+        for i in range(4):
+            if z[i]==5 or z[i]==1:
+                if z[1]==2 or z[1]==3 or z[1]==4:
+                    if i==0: listy.append("四季關")
+                    elif i==1: listm.append("四季關")
+                    elif i==2: listd.append("四季關")
+                    else: listh.append("四季關")
+            if z[i]==8 or z[i]==4:
+                if z[1]==5 or z[1]==6 or z[1]==7:
+                    if i==0: listy.append("四季關")
+                    elif i==1: listm.append("四季關")
+                    elif i==2: listd.append("四季關")
+                    else: listh.append("四季關")
+            if z[i]==11 or z[i]==7:
+                if z[1]==8 or z[1]==9 or z[1]==10:
+                    if i==0: listy.append("四季關")
+                    elif i==1: listm.append("四季關")
+                    elif i==2: listd.append("四季關")
+                    else: listh.append("四季關")
+            if z[i]==10 or z[i]==2:
+                if z[1]==11 or z[1]==0 or z[1]==1:
+                    if i==0: listy.append("四季關")
+                    elif i==1: listm.append("四季關")
+                    elif i==2: listd.append("四季關")
+                    else: listh.append("四季關")
+
+
+
+
+        
+
+        for i in range(4):
+            if z[i]==8:
+                if z[1]==2 or z[1]==8:
+                    if i==0: listy.append("金鎖關")
+                    elif i==1: listm.append("金鎖關")
+                    elif i==2: listd.append("金鎖關")
+                    else: listh.append("金鎖關")
+            if z[i]==9:
+                if z[1]==3 or z[1]==9:
+                    if i==0: listy.append("金鎖關")
+                    elif i==1: listm.append("金鎖關")
+                    elif i==2: listd.append("金鎖關")
+                    else: listh.append("金鎖關")
+            if z[i]==10:
+                if z[1]==4 or z[1]==10:
+                    if i==0: listy.append("金鎖關")
+                    elif i==1: listm.append("金鎖關")
+                    elif i==2: listd.append("金鎖關")
+                    else: listh.append("金鎖關")
+            if z[i]==11:
+                if z[1]==5 or z[1]==11:
+                    if i==0: listy.append("金鎖關")
+                    elif i==1: listm.append("金鎖關")
+                    elif i==2: listd.append("金鎖關")
+                    else: listh.append("金鎖關")
+            if z[i]==0:
+                if z[1]==6 or z[1]==0:
+                    if i==0: listy.append("金鎖關")
+                    elif i==1: listm.append("金鎖關")
+                    elif i==2: listd.append("金鎖關")
+                    else: listh.append("金鎖關")
+            if z[i]==1:
+                if z[1]==7 or z[1]==1:
+                    if i==0: listy.append("金鎖關")
+                    elif i==1: listm.append("金鎖關")
+                    elif i==2: listd.append("金鎖關")
+                    else: listh.append("金鎖關")
+            
 
 
 
@@ -1758,7 +1990,6 @@ if __name__ == '__main__':
     
     mm(2003,3,6,12)
     
-        
         
         
         
